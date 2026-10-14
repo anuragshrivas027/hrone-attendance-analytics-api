@@ -376,6 +376,14 @@ Also verify that:
 - No secrets or virtual environment files are committed.
 - The public Git repository URL is submitted through the application form using the same email address used for the application.
 
+## Known Limitations and Missing Items
+
+- The API has been tested manually using Swagger UI, but a complete automated test suite has not been run.
+- Performance and index usage should be verified against the larger dataset described in the assignment.
+- All required business rules and edge cases should be checked against the assignment specification before final submission.
+
+Note: These are verification items and do not necessarily mean that the corresponding features are missing from the implementation.
+
 ## 16. Project Completion
 
 This project demonstrates backend API development, database integration, input validation, concurrency handling, MongoDB aggregation, indexing, and query-plan inspection.
